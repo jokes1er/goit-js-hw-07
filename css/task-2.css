@@ -1,6 +1,7 @@
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 0fr);    
+
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
     padding: 0;
