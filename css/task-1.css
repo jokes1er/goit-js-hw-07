@@ -1,0 +1,29 @@
+#categories{
+    display: flex;
+    flex-direction: column;
+    width: 688px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.item {
+    list-style: none;
+    background-color: #F6F6FE;
+    margin: 20px;
+    border-radius: 8px;
+}
+.item > h2 {
+    font-size: 24px;
+    /* font-style: SemiBold; */
+    margin: 15px 0 10px 20px;
+}
+.item>ul {
+    padding:5px 15px 15px 15px;
+}
+.item>ul>li {
+    list-style: none;
+    border: solid 1px;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+}
