@@ -25,9 +25,7 @@ const images = [
   },
 ];
 
-// ==============
 const gallery = document.querySelector(".js-gallery");
-// ==================
 
 const imgEl = images
   .map(
@@ -35,11 +33,5 @@ const imgEl = images
       `<li class="list-item"><img class="img-item" src="${img.url}" alt="${img.alt}"></li>`
   )
   .join("");
-
-// ====================
-
-console.log(imgEl);
-
-// ========================
 
 gallery.insertAdjacentHTML("beforeend", imgEl);
